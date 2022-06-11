@@ -1,0 +1,127 @@
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+}
+
+main {
+    position: absolute;
+    margin: 0 auto;
+    width: 330px;
+    height: 570px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    box-shadow: -0px 15px 10px -5px hsl(226, 100%, 91%);
+}
+
+main img {
+    max-width: 330px;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.content {
+    width: 280px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.description {
+    width: 240px;
+    margin: 0 auto;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan {
+    height: 80px;
+    position: relative;
+    margin-top: 20px;
+    text-align: left;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.inplan img {
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inplan p {
+    margin-left: 80px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-90%);
+    color:hsl(224, 23%, 55%);
+}
+
+strong {
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.inplan a {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: 700;
+}
+
+.button {
+    position: relative;
+    top: 40px;
+    background-color: hsl(245, 75%, 52%);
+    color:hsl(225, 100%, 98%);
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0px 5px 10px 5px hsl(245, 75%, 90%);
+}
+
+.button:active {
+    background-color: hsl(248, 62%, 62%);
+  }
+
+.inplan a:active {
+    color: hsl(248, 62%, 62%);
+    text-decoration: none;
+}
+
+.cancel a {
+    position: relative;
+    top: 85px;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.cancel a:active {
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
