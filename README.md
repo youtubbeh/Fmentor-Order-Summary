@@ -20,7 +20,7 @@ Users should be able to: see hover states for interactive elements
 ### Links
 
 - [Github repo to review code](https://github.com/youtubbeh/Fmentor-Order-Summary)
-- [Live site](https://your-live-site-url.com)
+- [Live site](https://fmentor-order-summary-youtubbeh.netlify.app/)
 
 ## My process
 
